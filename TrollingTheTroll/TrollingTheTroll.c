@@ -1,24 +1,32 @@
 #include <unistd.h>
 
+void	change_vowel(char *str)
+{
+	int	i;
+
+	i = 0;
+	while(str[i])
+		{
+			if((str[i] == 'A') || (str[i] == 'E') || (str[i] == 'O') || (str[i] == 'U'))
+			{
+				str[i] = 'I';
+			}
+			else if((str[i] == 'a') || (str[i] == 'e') || (str[i] == 'o') || (str[i] == 'u'))
+			{
+				str[i] = 'i';
+			}
+		write(1, &str[i], 1);
+		i++;
+		}
+}
+
 int	main(int argc, char **argv)
 {
 	int	i;
 
 	i = 0;
-	if(argc == 2)
+	if (argc == 2)
 	{
-		while(argv[1][i])
-		{
-			if((argv[1][i] == 'A') || (argv[1][i] == 'E') || (argv[1][i] == 'O') || (argv[1][i] == 'U'))
-			{
-				argv[1][i] = 'I';
-			}
-			else if((argv[1][i] == 'a') || (argv[1][i] == 'e') || (argv[1][i] == 'o') || (argv[1][i] == 'u'))
-			{
-				argv[1][i] = 'i';
-			}
-		write(1, &argv[1][i], 1);
-		i++;
-		}
+		change_vowel(argv[1]);
 	}
 }
