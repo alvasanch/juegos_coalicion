@@ -1,4 +1,37 @@
 #include <unistd.h>
+#include <string.h>
+#include <stdio.h>
+
+int	palabra_prohibida(char *s1, char *s2)
+{
+	int	i;
+	int lengh;
+	int	j;
+
+	i = 0;
+	lengh = strlen(s2);
+	while(s1[i])
+	{
+		i++;
+		if(s1[i] == s2[i])
+		{
+			j = 1;
+			while(s2[j])
+			{
+				j++;
+				if(s1[i + j] != s2[j])
+				{
+					break;
+				}
+			}
+			if(s2[j])
+			{
+				return(1);
+			}
+		}
+	}
+	return(0);
+}
 
 void	change_vowel(char *str)
 {
