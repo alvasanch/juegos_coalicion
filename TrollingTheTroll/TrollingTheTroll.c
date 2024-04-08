@@ -55,11 +55,17 @@ void	change_vowel(char *str)
 
 int	main(int argc, char **argv)
 {
-	int	i;
-
-	i = 0;
-	if (argc == 2)
+	argv[2] = "alvaro es el mejor";
+	argv[3] = "es";
+	if (argc == 3)
 	{
-		change_vowel(argv[1]);
+		if(palabra_prohibida(argv[2], argv[3]) == 1)
+		{
+			printf("%s\n");
+		}
+		else if(change_vowel(argv[2]))
+		{
+			printf("%s\n");
+		}
 	}
 }
