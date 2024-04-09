@@ -1,39 +1,33 @@
 #include <unistd.h>
 #include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int	palabra_prohibida(char *s1, char *s2)
 {
-	int	i;
-	int lengh;
+	unsigned long	i;
 	int	j;
 
 	i = 0;
-	lengh = strlen(s2);
+	j = 0;
 	while(s1[i])
 	{
-		i++;
-		if(s1[i] == s2[i])
+		while(s2[j])
 		{
-			j = 1;
-			while(s2[j])
+			if(s1[i] == s2[j])
 			{
-				j++;
-				if(s1[i + j] != s2[j])
-				{
-					break;
-				}
+				i++;
+				break;
 			}
-			if(s2[j])
-			{
-				return(1);
-			}
+			j++;
 		}
+		if(s2[j] == '\0')
+			return(0);
 	}
-	return(0);
+	return(1);
 }
 
-void	change_vowel(char *str)
+char	*cambiar_vocal(char *str)
 {
 	int	i;
 
@@ -46,26 +40,25 @@ void	change_vowel(char *str)
 			}
 			else if((str[i] == 'a') || (str[i] == 'e') || (str[i] == 'o') || (str[i] == 'u'))
 			{
-				str[i] = 'i';
+				str[i] = 'i';	
 			}
-		write(1, &str[i], 1);
 		i++;
 		}
+	return(str);
 }
 
 int	main(int argc, char **argv)
 {
-	argv[2] = "alvaro es el mejor";
-	argv[3] = "es";
 	if (argc == 3)
 	{
-		if(palabra_prohibida(argv[2], argv[3]) == 1)
+		if(palabra_prohibida(argv[1], argv[2]))
 		{
-			printf("%s\n");
+			printf("%s", argv[2]);
 		}
-		else if(change_vowel(argv[2]))
+		else
 		{
-			printf("%s\n");
+			printf("%s", cambiar_vocal(argv[2]));
 		}
 	}
+	return(0);
 }
