@@ -5,6 +5,7 @@ Tu tarea es escribir una función que tome una cadena de texto y devuelva una nu
 Por ejemplo:
 
 Input: "Este sitio web es para perdedores"
+
 Output: "isti sitii wib is piri pirdidiris"
 
 Bonus
