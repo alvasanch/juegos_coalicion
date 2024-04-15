@@ -1,4 +1,4 @@
-Reto - Trolling the troll 👨‍💻
+Reto - Trolling the troll
 
 Tu tarea es escribir una función que tome una cadena de texto y devuelva una nueva cadena con todas las vocales cambiadas por una única vocal.
 
