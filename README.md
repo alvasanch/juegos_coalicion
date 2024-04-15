@@ -18,9 +18,9 @@ Output: "Isti riti is ini bisiri"
 ~~~
 
 ## Bonus
-En este caso tendremos que crear una nueva funcion que contemple palabra o palabras prohibidas. Si la palabra prohibida se encuentra en el string, tiene que devolver el string sin modificar. En el caso que no haya palabra prohibida en el string, tiene que cambiar todas las vocales por una unica vocal.
+En este caso tendremos que crear una nueva funcion que contemple una palabra prohibida. Si la palabra prohibida se encuentra en el string, tiene que devolver el string sin modificar. En el caso que no haya palabra prohibida en el string, tiene que cambiar todas las vocales por una unica vocal.
 ~~~
-Palabras prohibidas: ["es"]
+Palabra prohibida: ["es"]
 
 Input: "Este reto es una basura"
 Output: "Este reto es una basura"
