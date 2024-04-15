@@ -14,16 +14,16 @@ Tu tarea es escribir una función que tome una cadena de texto y devuelva una nu
 Por ejemplo:
 ~~~
 Input: "Este sitio web es para perdedores"
-Output: "isti sitii wib is piri pirdidiris"
+Output: "Isti sitii wib is piri pirdidiris"
 ~~~
 
 ## Bonus
-La función solo actúa cuando se detecta una palabra dentro de un diccionario de palabras prohibidas.
+La función solo actúa cuando se detecta una palabra dentro de un diccionario de palabras prohibidas. Si la palabra prohibida se encuentra en el string, tiene que devolver el string sin modificar. En el caso que no haya palabra prohibida en el string, tiene que cambiar todas las vocales por una unica vocal.
 ~~~
 Palabras prohibidas: ["idiota", "perdedores", "caca", "culo", "pis"]
 
 Input: "Este sitio web es para perdedores"
-Output: "Este sitio web es para pirdidiris"
+Output: "Este sitio web es para perdedores"
 
 Input: "Este sitio web es impresionante"
 Output: "Este sitio web es impresionante"
@@ -40,12 +40,12 @@ Output: "Este sitio web es impresionante"
 
 <br/><br/><br/>
 
-<details><summary><b>Pista 1</b></summary><p>BlaBlaBla</p></details>
+<details><summary><b>Pista 1</b></summary><p>escribir pista</p></details>
 
-<details><summary><b>Pista 2</b></summary><p>BlaBlaBla</p></details>
+<details><summary><b>Pista 2</b></summary><p>escribir pista</p></details>
 
-<details><summary><b>Pista 3</b></summary><p>BlaBlaBla</p></details>
+<details><summary><b>Pista 3</b></summary><p>escribir pista</p></details>
 
-<details><summary><b>Pista 4</b></summary><p>BlaBlaBla</p></details>
+<details><summary><b>Pista 4</b></summary><p>escribir pista</p></details>
 
-<details><summary><b>Pista 5</b></summary><p>BlaBlaBla</p></details>
+<details><summary><b>Pista 5</b></summary><p>escribir pista</p></details>
