@@ -1,4 +1,4 @@
-Reto - Trolling the troll
+RETO - TROLLING THE TROLL
 
 Tu tarea es escribir una función que tome una cadena de texto y devuelva una nueva cadena con todas las vocales cambiadas por una única vocal.
 
@@ -8,7 +8,7 @@ Input: "Este sitio web es para perdedores"
 
 Output: "isti sitii wib is piri pirdidiris"
 
-Bonus
+BONUS
 
 La función solo actúa cuando se detecta una palabra dentro de un diccionario de palabras prohibidas.
 
