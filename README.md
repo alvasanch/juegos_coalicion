@@ -14,7 +14,9 @@ La función solo actúa cuando se detecta una palabra dentro de un diccionario d
 Palabras prohibidas: ["idiota", "perdedores", "caca", "culo", "pis"]
 
 Input: "Este sitio web es para perdedores"
+
 Output: "Este sitio web es para perdedores"
 
 Input: "Este sitio web es impresionante"
+
 Output: "Isti sitii wib is imprisiininti"
