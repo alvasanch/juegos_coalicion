@@ -9,24 +9,24 @@
 
 # Reto - Trolling the troll 👨‍💻 
 
-Tu tarea es escribir una función que tome una cadena de texto y devuelva una nueva cadena con todas las vocales cambiadas por una única vocal.
+El reto consiste en escribir una funcion que tome una string y devuelva un nuevo string con todas las vocales cambiadas por una unica vocal.
 
 Por ejemplo:
 ~~~
-Input: "Este sitio web es para perdedores"
-Output: "Isti sitii wib is piri pirdidiris"
+Input: "Este reto es una basura"
+Output: "Isti riti is ini bisiri"
 ~~~
 
 ## Bonus
-La función solo actúa cuando se detecta una palabra dentro de un diccionario de palabras prohibidas. Si la palabra prohibida se encuentra en el string, tiene que devolver el string sin modificar. En el caso que no haya palabra prohibida en el string, tiene que cambiar todas las vocales por una unica vocal.
+En este caso tendremos que crear una nueva funcion que contemple palabras prohibidas. Si la palabra prohibida se encuentra en el string, tiene que devolver el string sin modificar. En el caso que no haya palabra prohibida en el string, tiene que cambiar todas las vocales por una unica vocal.
 ~~~
-Palabras prohibidas: ["idiota", "perdedores", "caca", "culo", "pis"]
+Palabras prohibidas: ["es"]
 
-Input: "Este sitio web es para perdedores"
-Output: "Este sitio web es para perdedores"
+Input: "Este reto es una basura"
+Output: "Este reto es una basura"
 
-Input: "Este sitio web es impresionante"
-Output: "Este sitio web es impresionante"
+Input: "Este reto fue una basura"
+Output: "Isti riti is ini bisiri"
 ~~~
 
 
