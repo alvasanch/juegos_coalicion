@@ -26,7 +26,7 @@ Input: "Este reto es una basura"
 Output: "Este reto es una basura"
 
 Input: "Este reto fue una basura"
-Output: "Isti riti is ini bisiri"
+Output: "Isti riti fii ini bisiri"
 ~~~
 
 
