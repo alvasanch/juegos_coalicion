@@ -40,7 +40,7 @@ Output: "Isti riti fii ini bisiri"
 
 <br/><br/><br/>
 
-<details><summary><b>Pista 1</b></summary><p>escribir pista</p></details>
+<details><summary><b>Pista 1</b></summary><p>Muy importante: https://n9.cl/lxgn</p></details>
 
 <details><summary><b>Pista 2</b></summary><p>escribir pista</p></details>
 
