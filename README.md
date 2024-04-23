@@ -44,7 +44,7 @@ Output: "Isti riti fii ini bisiri"
 
 <details><summary><b>Pista 2</b></summary><p>Ten en cuenta todas las vocales, tanto mayusculas como minusculas.</p></details>
 
-<details><summary><b>Pista 3</b></summary><p>Parte Bonus: Para esta parte necesitaremos saber si dentro de la string existe la palablra prohibida, es decir, COMPARAR: Busca en el manual alguna funcion que pueda servir para esta parte.</p></details>
+<details><summary><b>Pista 3</b></summary><p>Parte Bonus: Para esta parte necesitaremos saber si dentro de la string existe la palablra prohibida, es decir, COMPARAR. Busca en el manual alguna funcion que pueda servir para esta parte.</p></details>
 
 <details><summary><b>Pista 4</b></summary><p>escribir pista</p></details>
 
