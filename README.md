@@ -46,6 +46,4 @@ Output: "Isti riti fii ini bisiri"
 
 <details><summary><b>Pista 3</b></summary><p>Parte Bonus: Para esta parte necesitaremos saber si dentro de la string existe la palablra prohibida, es decir, COMPARAR. Busca en el manual alguna funcion que pueda servir para esta parte.</p></details>
 
-<details><summary><b>Pista 4</b></summary><p>escribir pista</p></details>
-
-<details><summary><b>Pista 5</b></summary><p>escribir pista</p></details>
+<details><summary><b>Pista 4</b></summary><p>int	palabra_prohibida(char *s1, char *s2)</p></details>
